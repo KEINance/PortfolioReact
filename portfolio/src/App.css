@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html {
+  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+}
 .App {
   text-align: center;
 }
 
+/* HEADER */
+
+
+
+/* HOMEPAGE */
+
+
+
+/* NAV */
 ul {
   list-style-type: none;
   display: flex;
@@ -12,3 +26,26 @@ ul {
 li {
   margin: 15px;
 }
+
+/* CONTACT */
+
+
+
+/* PORTFOLIO */
+
+
+
+/* PROJECTS */
+
+
+
+/* RESUME */
+
+
+
+/* FOOTER */
+
+
+
+
+
