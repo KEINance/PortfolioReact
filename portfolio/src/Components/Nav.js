@@ -5,10 +5,10 @@ export default function Nav() {
   // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
   // We also provide an initial value
   return (
-    <div>
+    <div id='navBar'>
        <ul>
         <li>
-            <Link to='/'>About Me</Link>
+            <Link to='/'>This Is Me</Link>
         </li>
         <li>
             <Link to='/portfolio'>Portfolio</Link>

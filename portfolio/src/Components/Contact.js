@@ -1,4 +1,5 @@
 import React from "react";
+// import standPoint from '../Assets/standPoint'
 
 export default function Greeting() {
   // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
@@ -15,6 +16,17 @@ export default function Greeting() {
           </a>
           <a href="https://github.com/KEINance">GitHub</a>
         </div>
+
+        <img
+            class="img"
+            src="../Assets/standPoint"
+            alt="avatarWave"
+            width="200"
+            height="200"
+          />
+
+
+        {/* <img src={standPoint} alt='avatarWave'/> */}
       </section>
     </div>
   );

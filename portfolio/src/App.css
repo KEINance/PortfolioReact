@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+/* color palette link */
+/* https://coolors.co/89b6a5-4c3b4d-c9eddc-82968c-6a706e */
+/* var(--cambridge-blue) */
+:root {
+--cambridge-blue: #89b6a5ff;
+--english-violet: #4c3b4dff;
+--mint-green: #c9eddcff;
+--cambridge-blue-2: #82968cff;
+--dim-gray: #6a706eff;
+}
+
 html {
+  background-color: var(--mint-green);
   font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
 }
 .App {
@@ -16,7 +28,11 @@ html {
 
 
 /* NAV */
+#navBar {
+  opacity: 0.5;
+}
 ul {
+  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -24,6 +40,7 @@ ul {
 }
 
 li {
+  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
   margin: 15px;
 }
 
@@ -36,7 +53,45 @@ li {
 
 
 /* PROJECTS */
+#Projects {
+  font-weight: bold;
+}
+#projectsContainer {
+  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+  color: var(--english-violet);
+  background-color: var(--mint-green);
+  display: flex;
+  flex-direction: row;
+}
 
+.card {
+  background-color: var(--cambridge-blue-2);
+  border-radius: 10px;
+}
+
+.card-title {
+  border-radius: 20px;
+  background-color: var(--mint-green);
+  color: var(--english-violet);
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: antiquewhite;
+  color: var(--english-violet);
+}
+
+#projectsSection {
+  width: 100%;
+  background-color: var(--cambridge-blue);
+  /* display: flex;
+  flex-direction: row; */
+}
 
 
 /* RESUME */

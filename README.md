@@ -1,12 +1,8 @@
 # 20 React: React Portfolio
 
-## Your Task
+## Deacription
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
-
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
+An active portfolio for peers, employement options, and friends to have access to completed works.
 
 **Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
 
@@ -47,10 +43,11 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-## Credits
+## Mock-Up
 
-[GOOGLE FONT](https://fonts.google.com/)
+The following animation shows the web application's appearance and functionality:
 
+![](./Assets/20-react-homework-demo-01.gif)
 
 ## Links
 
@@ -58,31 +55,19 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 [REPO](https://github.com/KEINance/PortfolioReact)
 
-[DEPLOYED]()
+[DEPLOYED](https://keinance.github.io/PortfolioReact/)
+
+## Credits
+
+[GOOGLE FONT](https://fonts.google.com/)
+
+[COOLERS](https://coolors.co/)
 
 
 
 
 
 
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-## Getting Started
-
-You’ll use `create-react-app` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
 
 **Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
@@ -90,7 +75,7 @@ You’ll use `create-react-app` to build your portfolio, which will include the 
 
 For each project that is featured in your portfolio, include the following:
 
-* An image of the deployed application (either a short animated GIF or screenshot)
+* An image of the deployed application screenshot
 
 * The title of the project
 
@@ -99,8 +84,6 @@ For each project that is featured in your portfolio, include the following:
 * A link to the corresponding GitHub repository
 
 ### Design
-
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
 
 * Use mobile-first design.
 
