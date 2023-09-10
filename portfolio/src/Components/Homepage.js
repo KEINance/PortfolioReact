@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Homepage() {
 
-  const [homepage, setHomepage] = useState('Welcome! React state is awesome!');
-
   return (
-
-
-// opening page with links and about first there
+// opening page with links to contact, projects, and 
+//about first on opening
+<div>
 <h1>
 Greetings and salutations from Katie Eliza Isabel Nance
 </h1>
@@ -24,6 +22,6 @@ Greetings and salutations from Katie Eliza Isabel Nance
     I am excited to step out into the coding and developing fields to contribute my abilities
     and current working knowledge towards larger and more complicated projects.
 </p>
-
+</div>
   );
 }
