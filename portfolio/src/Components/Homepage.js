@@ -1,5 +1,5 @@
 import React from 'react';
-// import wave from '../Assets/wave'
+import wave from '../Assets/wave.png'
 
 export default function Homepage() {
 
@@ -24,16 +24,7 @@ Greetings and salutations from Katie Eliza Isabel Nance
     and current working knowledge towards larger and more complicated projects.
 </p>
 
-<img
-            class="img"
-            src="../Assets/wave"
-            alt="avatarWave"
-            width="200"
-            height="200"
-          />
-
-
-{/* <img src={wave} alt='avatarWave'/> */}
+<img id='homepageImg' src={wave} alt='avatarWave'/>
 </div>
   );
 }
