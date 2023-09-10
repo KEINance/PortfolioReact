@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Greeting() {
   return (
     <div id="projectsContainer">
@@ -9,8 +10,7 @@ export default function Greeting() {
 
       <div id="projectSection">
 
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="../Assets/HTMLproject.png" className="card-img-top" alt="..." />
+      <div className="card1" style={{ width: "18rem" }}>
         <div className="card-body">
           <h5 className="card-title">Horiseon HTML</h5>
           <p className="card-text">
@@ -22,8 +22,7 @@ export default function Greeting() {
         </div>
       </div>
 
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="../Assets/CSSproject.png" className="card-img-top" alt="..." />
+      <div className="card2" style={{ width: "18rem" }}>
         <div className="card-body">
           <h5 className="card-title">Portfolio Work in CSS</h5>
           <p className="card-text">
@@ -35,8 +34,7 @@ export default function Greeting() {
         </div>
       </div>
 
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="../Assets/READMEscreenshot.png" className="card-img-top" alt="..." />
+      <div className="card3" style={{ width: "18rem" }}>
         <div className="card-body">
           <h5 className="card-title">JAKD Movie App</h5>
           <p className="card-text">
@@ -48,8 +46,7 @@ export default function Greeting() {
         </div>
       </div>
       
-      <div className="card" style={{ width: "18rem" }}>
-        <img src=".../Assets/car-bidz.png" className="card-img-top" alt="..." />
+      <div className="card4" style={{ width: "18rem" }}>
         <div className="card-body">
           <h5 className="card-title">Car Bidz</h5>
           <p className="card-text">

@@ -63,17 +63,42 @@ li {
   display: flex;
   flex-direction: row;
 }
-
-.card {
-  background-color: var(--cambridge-blue-2);
+.card1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./Assets/HtmlProject.png") ;
+  border-radius: 10px;
+}
+.card2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./Assets/CssProject.png") ;
+  border-radius: 10px;
+}
+.card3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./Assets/MovieProject.png") ;
+  border-radius: 10px;
+}
+.card4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./Assets/CarProject.png") ;
   border-radius: 10px;
 }
 
 .card-title {
+  margin-top: 15px;
   border-radius: 20px;
-  background-color: var(--mint-green);
-  color: var(--english-violet);
+  background-color: var(--english-violet);
+  color: var(--mint-green);
   font-weight: bolder;
+  opacity: 0.8;
 }
 
 .card-text {
@@ -82,6 +107,7 @@ li {
 }
 
 .btn {
+  opacity: 0.5;
   background-color: antiquewhite;
   color: var(--english-violet);
 }
