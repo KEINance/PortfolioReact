@@ -4,16 +4,15 @@
 /* https://coolors.co/89b6a5-4c3b4d-c9eddc-82968c-6a706e */
 /* var(--cambridge-blue) */
 :root {
---cambridge-blue: #89b6a5ff;
---english-violet: #4c3b4dff;
---mint-green: #c9eddcff;
---cambridge-blue-2: #82968cff;
---dim-gray: #6a706eff;
+  --font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+  --periwinkle: #dcd6f7ff;
+  --periwinkle-2: #a6b1e1ff;
+  --puce: #b4869fff;
+  --china-rose: #985f6fff;
+  --english-violet: #4e4c67ff;
+  --base: rgb(221, 222, 228);
 }
 
-html {
-  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
-}
 .App {
   text-align: center;
 }
@@ -23,44 +22,142 @@ html {
 }
 
 
-/* HEADER */
-
-
-
 /* HOMEPAGE */
-  #homepageImg {
-    float: left;
-  }
+#infoCards {
+  margin-left: 300px;
+}
 
+#View {
+  font-family: 'Courier New';
+  /* font-family: var(--font-family); */
+  font-style: oblique;
+  position: absolute;
+  z-index: 6;
+  text-align: left;
+  width: 100px;
+  text-align: center;
+  top: 300px;
+}
 
+.sideColumn {
+  font-size: xxx-large;
+}
+
+#homepageImg {
+  position: relative;
+  float: left;
+  margin-left: 876px;
+  bottom: 1000px;
+}
+
+#firstCard {
+  height: 300px;
+  width: 500px;
+  color: var(--english-violet);
+  border: 10px groove var(--english-violet);
+  background-color: white;
+  z-index: 4;
+  position: relative;
+  top: 300px;
+  margin-left: 260px;
+}
+
+#firstCard:active {
+  z-index: 4;
+}
+
+#secondCard {
+  height: 300px;
+  width: 500px;
+  color: var(--english-violet);
+  border: 10px groove var(--english-violet);
+  background-color: white;
+  z-index: 3;
+  position: relative;
+  bottom: 60px;
+  margin-left: 300px;
+}
+
+#secondCard:active {
+  z-index: 4;
+}
+
+#thirdCard {
+  height: 300px;
+  width: 500px;
+  color: var(--english-violet);
+  border: 10px groove var(--english-violet);
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  bottom: 430px;
+  margin-left: 340px;
+}
+
+#thirdCard:active {
+  z-index: 4;
+}
+
+#fourthCard {
+  height: 300px;
+  width: 500px;
+  color: var(--english-violet);
+  border: 10px groove var(--english-violet);
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  bottom: 800px;
+  margin-left: 380px;
+}
+
+#fourthCard:active {
+  z-index: 4;
+}
+
+/* HEADER */
 /* NAV */
 #navBar {
-  text-decoration: none !important;
+  font-family: 'Abril';
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: var(--cambridge-blue-2);
- background-color: var(--english-violet);
+  color: var(--english-violet);
+  border-style: none none groove none;
+  border-radius: 5px;
 }
 
 #name {
-  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+  /* text-decoration: overline; */
+  text-shadow: -2px -1px 1px var(--periwinkle-2);
+  text-decoration-color: var(--english-violet);
+  font-family: "Abril";
   font-weight: bolder;
   color: var(--cambridge-blue-2);
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
+
 ul {
-  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
-  list-style-type: none;
+  text-decoration: none !important;
+  /* font-family: var(--font-family); */
+  /* color: var(--english-violet); */
+  /* text-decoration-color: var(--english-violet); */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
+li:active {
+  /* text-decoration: none !important; */
+  font-size: 15px;
+  color: var(--china-rose);
+  text-shadow: var(--english-violet) 1px 0 10px;
+}
+
 li {
-  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+  list-style-type: none;
   margin: 15px;
+  margin-top: 41px;
 }
 
 /* CONTACT */
@@ -74,76 +171,87 @@ li {
 /* PORTFOLIO */
 #portfolioImg {
   border-radius: 100px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 80px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 10px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
   float: right;
   z-index: 2;
-  margin-left: 410px;
+  margin-left: 450px;
   position: fixed;
   top: 180px;
-
 }
 
 /* PROJECTS */
 #Projects {
-  font-weight: bold;
+  /* font-size: 30px;
+  font-weight: bold; */
 }
-#projectsContainer {
-  font-family: 'Abril', 'Courier New', 'Courier', 'monospace';
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: overline;
+  text-decoration-color: var(--english-violet);
   color: var(--english-violet);
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#projectsContainer {
+  font-family: 'Abril';  
+  color: var(--periwinkle-2);
 }
 
 #projectsSection {
-  width: 100%;
-  /* display: flex;
-  justify-content: space-between; */
+  width: 100%
 }
 
 #btn1 {
-  /* margin-right: 20px; */
+  background-image: url("./Assets/HtmlProject.png") ;
   border: solid var(--mint-green) 15px;
   height: 200px;
-  width: 300px;
-  background-size: cover;
+  width: 200px;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("./Assets/HtmlProject.png") ;
-  border-radius: 10px;
-  color: var(--cambridge-blue);
-}
-#btn3 {  
- border: solid var(--mint-green) 15px;
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("./Assets/MovieProject.png") ;
-  border-radius: 10px;
+  border-radius: 100px;
   color: var(--cambridge-blue);
 }
 
 #btn2 {
+  background-image: url("./Assets/CssProject.png") ;  
   border: solid var(--mint-green) 15px;
   height: 200px;
-  width: 300px;
-  background-size: cover;
+  width: 200px;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("./Assets/CssProject.png") ;
-  border-radius: 10px;
+  border-radius: 100px;
+  color: var(--cambridge-blue);
+}
+
+#btn3 {  
+  background-image: url("./Assets/MovieProject.png") ;
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
   color: var(--cambridge-blue);
 }
 
 #btn4 {
+  background-image: url("./Assets/CarProject.png");
   border: solid var(--mint-green) 15px;
   height: 200px;
-  width: 300px;
+  width: 200px;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("./Assets/CarProject.png") ;
-  border-radius: 10px;
+  border-radius: 100px;
   color: var(--cambridge-blue);
+
 }
 
 .card-title {
@@ -158,15 +266,20 @@ li {
 .card-text {
 opacity: 0;
 }
-
-/* :hover
-.card-text,
+/* 
+:hover
 .btn {
+  opacity: 0;
+} */
+
+
+::hover
+.card-text{
   opacity: 0.8;
   font-size: smaller;
   font-weight: bold;
   margin-bottom: 50px;
-} */
+}
 
 
 
