@@ -11,16 +11,14 @@ export default function Homepage() {
 <h1 id='firstCard'>
 <br>
     </br>
-Greetings and Salutations from 
-<br>
-    </br>Katie Eliza Isabel Nance
+    <br>
+    </br>
+    Salutations
 </h1>
 {/* be one card that is clickable use zindex */}
 {/* another clickable card */}
 <p id='secondCard'>
-    <h2>The Beginnings</h2>
-    <br>
-    </br>
+    <h2 className='underline'>The Beginnings</h2>
     <br>
     </br>
     <br>
@@ -33,9 +31,7 @@ Greetings and Salutations from
 </p>
 {/* another clickable card */}
 <p id='thirdCard'>
-    <h2>Starting out</h2>
-    <br>
-    </br>
+    <h2 className='underline'>Starting out</h2>
     <br>
     </br>
     <br>
@@ -45,10 +41,8 @@ Greetings and Salutations from
 </p>
 {/* another clickable card */}
 <p id='fourthCard'> 
-  <h2>Your Time Is Appreciated</h2>
+  <h2 className='underline'>Your Time Is Appreciated</h2>
   <br>
-    </br>
-    <br>
     </br>
     <br>
     </br>

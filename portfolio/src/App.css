@@ -18,7 +18,7 @@
 }
 
 .hide {
-  display:none;
+  display: none;
 }
 
 
@@ -51,10 +51,11 @@
 }
 
 #firstCard {
+  font-family: "Abril";
   height: 300px;
   width: 500px;
   color: var(--english-violet);
-  border: 10px groove var(--english-violet);
+  border: 5px groove var(--english-violet);
   background-color: white;
   z-index: 4;
   position: relative;
@@ -67,10 +68,11 @@
 }
 
 #secondCard {
+  font-family: "Abril";
   height: 300px;
   width: 500px;
   color: var(--english-violet);
-  border: 10px groove var(--english-violet);
+  border: 8px groove var(--english-violet);
   background-color: white;
   z-index: 3;
   position: relative;
@@ -83,10 +85,11 @@
 }
 
 #thirdCard {
+  font-family: "Abril";
   height: 300px;
   width: 500px;
   color: var(--english-violet);
-  border: 10px groove var(--english-violet);
+  border: 5px groove var(--english-violet);
   background-color: white;
   z-index: 2;
   position: relative;
@@ -99,10 +102,11 @@
 }
 
 #fourthCard {
+  font-family: "Abril";
   height: 300px;
   width: 500px;
   color: var(--english-violet);
-  border: 10px groove var(--english-violet);
+  border: 8px groove var(--english-violet);
   background-color: white;
   z-index: 1;
   position: relative;
@@ -114,6 +118,10 @@
   z-index: 4;
 }
 
+.underline{ 
+  text-decoration: underline;
+}
+
 /* HEADER */
 /* NAV */
 #navBar {
@@ -123,7 +131,7 @@
   justify-content: space-between;
   color: var(--english-violet);
   border-style: none none groove none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #name {
@@ -164,12 +172,45 @@ li {
 #contactImg {
   float: left;
   margin-left: 60px;
-
+  position: relative;
+  top: 100px;
 }
+
+#Communications {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: overline;
+  text-decoration-color: var(--english-violet);
+  color: var(--english-violet);
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* PORTFOLIO */
 #portfolioImg {
+  /* img transparent BG */
+  background-color: rgb(78, 76, 103, 0.2); 
   border-radius: 100px;
   box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
   float: right;
@@ -206,7 +247,7 @@ li {
 }
 
 #btn1 {
-  background-image: url("./Assets/HtmlProject.png") ;
+  background-image: url("./Assets/HtmlProject.png");
   border: solid var(--mint-green) 15px;
   height: 200px;
   width: 200px;
@@ -214,7 +255,6 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 100px;
-  color: var(--cambridge-blue);
 }
 
 #btn2 {
@@ -226,7 +266,6 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 100px;
-  color: var(--cambridge-blue);
 }
 
 #btn3 {  
@@ -238,7 +277,6 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 100px;
-  color: var(--cambridge-blue);
 }
 
 #btn4 {
@@ -250,35 +288,22 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 100px;
-  color: var(--cambridge-blue);
-
 }
-
-.card-title {
-  text-align: center;
-  color: var(--cambridge-blue);
-  text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.0em black;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 
 .card-text {
-opacity: 0;
-}
-/* 
-:hover
-.btn {
   opacity: 0;
-} */
+  text-align: center;
+  color: var(--periwinkle);
+}
 
-
-::hover
-.card-text{
+.card-text:hover{
+  background-position: 0 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: rgb(78, 76, 103, 1); 
   opacity: 0.8;
-  font-size: smaller;
-  font-weight: bold;
-  margin-bottom: 50px;
+  font-size: 15px;
 }
 
 
@@ -289,8 +314,13 @@ opacity: 0;
 
 
 /* FOOTER */
-
-
-
-
-
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-style: groove none none none;
+  border-radius: 10px;
+}

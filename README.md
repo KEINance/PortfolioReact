@@ -65,6 +65,7 @@ The following animation shows the web application's appearance and functionality
 
 [SNAPCHAT AVATAR](https://www.snapchat.com/)
 
+[FLATICON](https://www.flaticon.com/)
 
 
 
