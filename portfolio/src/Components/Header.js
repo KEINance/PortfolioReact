@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './Nav';
+import { Link } from 'react-router-dom';
 // differences between jsx and html 
 //class becomes className
 //img and input tags self closing 
@@ -9,9 +9,24 @@ export default function Header() {
   // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
   // We also provide an initial value
   return (
-    <div>
-        <h2>Katie Eliza Isabel Nance</h2>
-        <Nav></Nav>
+        <div id='navBar'>
+        <h2 id='name'>Katie Eliza Isabel Nance</h2>
+    <div id='links'>
+       <ul>
+        <li>
+            <Link to='/'>This Is Me</Link>
+        </li>
+        <li>
+            <Link to='/portfolio'>Portfolio</Link>
+        </li>
+        <li>
+            <Link to='/contact'>Contact</Link>
+        </li>
+        <li>
+            <Link to='/resume'>Resume</Link>
+        </li>
+       </ul>
+    </div>
     </div>
   );
 }

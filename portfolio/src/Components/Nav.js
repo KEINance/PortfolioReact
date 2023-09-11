@@ -1,26 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+// import React from 'react';
+// import { Link } from 'react-router-dom';
 
-export default function Nav() {
-  // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
-  // We also provide an initial value
-  return (
-    <div id='navBar'>
-       <ul>
-        <li>
-            <Link to='/'>This Is Me</Link>
-        </li>
-        <li>
-            <Link to='/portfolio'>Portfolio</Link>
-        </li>
-        <li>
-            <Link to='/contact'>Contact</Link>
-        </li>
-        <li>
-            <Link to='/resume'>Resume</Link>
-        </li>
-       </ul>
-    </div>
-  );
-}
+// export default function Nav() {
+//   // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
+//   // We also provide an initial value
+//   return (
+//     <div id='navBar'>
+//        <ul>
+//         <li>
+//             <Link to='/'>This Is Me</Link>
+//         </li>
+//         <li>
+//             <Link to='/portfolio'>Portfolio</Link>
+//         </li>
+//         <li>
+//             <Link to='/contact'>Contact</Link>
+//         </li>
+//         <li>
+//             <Link to='/resume'>Resume</Link>
+//         </li>
+//        </ul>
+//     </div>
+//   );
+// }
 

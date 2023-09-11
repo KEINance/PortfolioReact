@@ -15,11 +15,11 @@ export default function Greeting() {
         >
           <div className="card1" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Horiseon HTML</h5>
               <p className="card-text">
                 Reworking HTML elements along with CSS to correct display for
                 users.
               </p>
+              <h5 className="card-title">Horiseon HTML</h5>
             </div>
           </div>
         </a>
@@ -31,8 +31,8 @@ export default function Greeting() {
         >
           <div className="card2" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Portfolio Work in CSS</h5>
               <p className="card-text">Original Portfolio with HTML and CSS.</p>
+              <h5 className="card-title">Portfolio Work in CSS</h5>
             </div>
           </div>
         </a>
@@ -44,10 +44,10 @@ export default function Greeting() {
         >
           <div className="card3" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">JAKD Movie App</h5>
               <p className="card-text">
                 Movie generator that returns searched titles.
               </p>
+              <h5 className="card-title">JAKD Movie App</h5>
             </div>
           </div>
         </a>
@@ -59,15 +59,273 @@ export default function Greeting() {
         >
           <div className="card4" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Car Bidz</h5>
               <p className="card-text">
                 Application allows users to view vehicles for sale. Users are
                 able to make an account to create their own listing and place
                 bids on other items for sale.
               </p>
+              <h5 className="card-title">Car Bidz</h5>
             </div>
           </div>
         </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn4'
+        >
+          <div className="card4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <p className="card-text">
+                Application allows users to view vehicles for sale. Users are
+                able to make an account to create their own listing and place
+                bids on other items for sale.
+              </p>
+              <h5 className="card-title">Car Bidz</h5>
+            </div>
+          </div>
+        </a>
+
+
       </div>
     </div>
   );

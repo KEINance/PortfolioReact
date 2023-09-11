@@ -63,6 +63,8 @@ The following animation shows the web application's appearance and functionality
 
 [COOLERS](https://coolors.co/)
 
+[SNAPCHAT AVATAR](https://www.snapchat.com/)
+
 
 
 
