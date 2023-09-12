@@ -1,9 +1,8 @@
 // import React from "react";
 import * as React from 'react';
-import { experimentalStyled as styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-// import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
+// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+// import 'pure-react-carousel/dist/react-carousel.es.css';
+
 
 
 export default function Greeting() {
@@ -12,8 +11,7 @@ export default function Greeting() {
       <div id="Projects">
         <h3 className='title'>Please Enjoy My Creations ...</h3>
       </div>
-<Box sx={{ flexGrow: 1 }}>
-  <Grid container spacing={{ xs:2, md:3 }} columns={{ xs: 4, sm: 8, mg: 12}}>
+
       <div id="projectSection">
         <a
           href="https://keinance.github.io/horiseon-website-update/"
@@ -92,10 +90,10 @@ export default function Greeting() {
             </div>
           </div>
         </a>
-      </div>
 
-      </Grid>
-      </Box>
+
+
+      </div>
     </div>
   );
 }

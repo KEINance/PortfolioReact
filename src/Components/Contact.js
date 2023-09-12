@@ -6,15 +6,25 @@ export default function Greeting() {
   // We also provide an initial value
   return (
     <div>
-      <div id="Communications">
-        <h4>Looking Forward To Hearing From You!</h4>
+      <div>
+        <h4 id="Communications">Looking Forward To Hearing From You!</h4>
       </div>
       <section id="contactSection">
         <div id="contacts">
-          <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=keinance2@gmail.com">
-            Keinance2@gmail.com
+          <a
+            href="https://mail.google.com/mail/?view=cm&source=mailto&to=keinance2@gmail.com"
+            className="btn btn-primary"
+            id="btnEmail"
+          >
+            Let's chat over Gmail!
           </a>
-          <a href="https://github.com/KEINance">GitHub</a>
+          <a
+            href="https://github.com/KEINance"
+            className="btn"
+            id="btnGithub"
+          >
+            Let's chat over GitHub!
+          </a>
         </div>
 
         <img id="contactImg" src={standPoint} alt="avatarWave" />
