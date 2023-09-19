@@ -81,7 +81,7 @@
   margin-left: 300px;
 }
 
-#secondCard:active {
+#secondCard:hover {
   z-index: 4;
 }
 
@@ -98,7 +98,7 @@
   margin-left: 340px;
 }
 
-#thirdCard:active {
+#thirdCard:hover {
   z-index: 4;
 }
 
@@ -115,7 +115,7 @@
   margin-left: 380px;
 }
 
-#fourthCard:active {
+#fourthCard:hover {
   z-index: 4;
 }
 
@@ -370,9 +370,64 @@ li:active {
 
 /* RESUME */
 #title {
-  display: flex;
   justify-content: left;
-  
+  width: 300px;
+  margin-left: 40px;
+  text-shadow: -2px -1px 1px var(--periwinkle-2);
+  text-decoration-color: var(--english-violet);
+  font-family: "Abril";
+  font-weight: bolder;
+  color: var(--cambridge-blue-2);
+}
+
+#skill {
+  margin-top: 30px;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(78, 76, 103, 0.2); 
+border-radius: 100px;
+box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+}
+
+#education {
+  margin-left: 400px;
+  margin-bottom: 500px;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(78, 76, 103, 0.2); 
+border-radius: 100px;
+box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+}
+
+#skillEdu {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#history {
+  margin-left: 490px;
+  justify-content: right;
+  width: 500px;
+  height: 400px;
+  background-color: rgb(78, 76, 103, 0.2); 
+border-radius: 100px;
+box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+z-index: 2;
+}
+
+#ref {  
+  margin-left: 600px;
+  justify-content: center;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 500px;
+  background-color: rgb(78, 76, 103, 0.2); 
+border-radius: 100px;
+box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
 }
 
 

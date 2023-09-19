@@ -11,35 +11,43 @@ Keinance2@gmail.com
 Raleigh, NC 27613
 </h2>
 
-
+<div id='skillEdu'>
 <p id='skill'>
+<h3>Skills</h3>
 ❖ Adaptive team player
 ❖ Attention to detail
-❖ Computer savvy
-❖ Courteous demeanor
-❖ CPR Certified
 ❖ Diligent
-❖ Energetic
-❖ Hardworking
 ❖ Quick learner
-❖ Resourceful
-❖ Responsible and reliable
 ❖ Strong Organizational Skills
-</p>
+❖ HTML
+❖ Tailwind CSS
+❖ JavaScript
+❖ React
+❖ SQL
+❖ Bootstrap
+❖ VS coder
+❖ GitHub
+❖ Heroku 
+❖ Node.js
+❖ Express
+❖ Sequalize
+❖ MongoDB
 
-<p id='certification'>
-2023 CPR Certification
 </p>
-
 <p id='education'>
+<h3>Education</h3>
 2012 GED: Rockingham Community College - Wentworth, NC
 2015 Associate of Fine Arts: Rockingham Community College – Wentworth, NC
 2016-2017 East Carolina University – Greenville, NC
 2017-2018 Guilford Technical Community College – Jamestown, NC
 2023 UNC Charlotte Full-Stack Bootcamp
 </p>
+</div>
 
+<div>
 <p id='history'>
+<h3>Work History</h3>
+
 Raleigh Dental Arts – Raleigh, NC
 April 2021 – Present
 
@@ -52,14 +60,6 @@ February 2020 – June 2020
 Ann Taylor Factory/Loft – Mebane, NC/Shreveport, LA
 Sales Lead
 October 2019 – May 2021
-
-Under Armor – Mebane, NC
-Seasonal Sales Associate
-November 2019 – January 2020
-
-Build-A-Bear – Bossier City, LA
-Temporary Sales Associate
-August2019 – September 2019
 
 Skechers – Bossier City, LA
 Lead Floor Sales Associate
@@ -74,16 +74,11 @@ Rockingham Community College - Wentworth, NC
 Work Study/Assistant
 October 2014 to May 2015
 </p>
-
-<p id='volunter'>
-Chestnut Ridge Camp & Retreat Center - Efland, NC
-Volunteer/Horse Caretaker
-2009 to 2009
-</p>
-
-<p id='references'>
+<p id='ref'>
  References Upon Request
 </p>
+</div>
+
     </div>
   );
 }

@@ -7,13 +7,14 @@ import Header from './Components/Header';
 import Nav from './Components/Nav';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+    <HashRouter>
+
 
     <Header></Header>
     <Routes>
@@ -28,7 +29,7 @@ function App() {
 
     <Footer></Footer>
 
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
