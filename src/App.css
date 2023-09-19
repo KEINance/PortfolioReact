@@ -381,19 +381,20 @@ li:active {
 }
 
 #skill {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
-  justify-content: left;
   width: 300px;
-  height: 300px;
+  height: 500px;
   background-color: rgb(78, 76, 103, 0.2); 
 border-radius: 100px;
 box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
 }
 
 #education {
-  margin-left: 400px;
-  margin-bottom: 500px;
-  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
   width: 300px;
   height: 300px;
   background-color: rgb(78, 76, 103, 0.2); 
@@ -409,9 +410,11 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
 }
 
 #history {
+  display: flex;
+  flex-direction: column;
   margin-left: 490px;
-  justify-content: right;
-  width: 500px;
+  align-content: left;
+  width: 600px;
   height: 400px;
   background-color: rgb(78, 76, 103, 0.2); 
 border-radius: 100px;
