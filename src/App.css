@@ -13,6 +13,10 @@
   --base: rgb(221, 222, 228);
 }
 
+html, body {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -380,21 +384,57 @@ li:active {
   color: var(--cambridge-blue-2);
 }
 
-#skill {
-  display: flex;
+
+.container {
+  height: auto;
+  overflow: hidden;
+}
+
+.right {
+  flex-wrap: wrap; 
   flex-direction: column;
-  margin-top: 30px;
-  width: 300px;
-  height: 500px;
+  width: 200px;
+  float: right;
+}
+
+.left {
+  flex-wrap: wrap; 
+  flex-direction: column;
+width: auto;
+overflow: hidden;
+}
+
+
+#skill {
+  /* margin-left: 20px;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  width: 400px;
+  height: 300px;
   background-color: rgb(78, 76, 103, 0.2); 
 border-radius: 100px;
 box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
 }
 
+/* #skillList {
+  margin-left: 20px;
+  align-items: flex-start;
+    display: flex;
+  flex-direction: column;
+}
+
+#skillList2 {
+  margin-right: 20px;
+  margin-bottom: 1000px;
+  align-items: flex-end;
+  display: flex;
+ flex-direction: column;
+} */
+
 #education {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
   width: 300px;
   height: 300px;
   background-color: rgb(78, 76, 103, 0.2); 
@@ -403,6 +443,7 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
 }
 
 #skillEdu {
+  margin-top: 35px;
   height: 400px;
   display: flex;
   flex-direction: row;
@@ -412,8 +453,6 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
 #history {
   display: flex;
   flex-direction: column;
-  margin-left: 490px;
-  align-content: left;
   width: 600px;
   height: 400px;
   background-color: rgb(78, 76, 103, 0.2); 
@@ -423,6 +462,7 @@ z-index: 2;
 }
 
 #ref {  
+  margin-top: 40px;
   margin-left: 600px;
   justify-content: center;
   width: 300px;
@@ -436,7 +476,7 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
 
 /* FOOTER */
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 50px;
   width: 100%;
@@ -444,4 +484,13 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
   justify-content: space-evenly;
   border-style: groove none none none;
   border-radius: 10px;
+}
+
+
+/* MEDIA CHANGES */
+
+@media screen and (max-width: 600px) {
+  html {
+    width: 100%;
+  }
 }
