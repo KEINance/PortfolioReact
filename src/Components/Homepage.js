@@ -17,7 +17,7 @@ export default function Homepage() {
 </h1>
 {/* be one card that is clickable use zindex */}
 {/* another clickable card */}
-<p id='secondCard'>
+<div id='secondCard'>
     <h2 className='underline'>The Beginnings</h2>
     <br>
     </br>
@@ -28,9 +28,9 @@ export default function Homepage() {
     BootCamp at UNC-Charlotte. I am progressing my working knowledge of 
     multiple languages past the directive of the BootCamp, also by 
     continuing to strengthen my abilities.
-</p>
+</div>
 {/* another clickable card */}
-<p id='thirdCard'>
+<div id='thirdCard'>
     <h2 className='underline'>Starting out</h2>
     <br>
     </br>
@@ -38,9 +38,9 @@ export default function Homepage() {
     </br>
     I am excited to step out into the coding and developing fields to contribute my abilities
     and current working knowledge towards larger and more complicated projects.
-</p>
+</div>
 {/* another clickable card */}
-<p id='fourthCard'> 
+<div id='fourthCard'> 
   <h2 className='underline'>Your Time Is Appreciated</h2>
   <br>
     </br>
@@ -48,7 +48,7 @@ export default function Homepage() {
     </br>
   Thank you for reading through, I hope viewing my projects shows off some of the attention
   to detail and creativness that I apply to my works. Please, enjoy! Thank you for your consideration.
-</p>
+</div>
 <img id='homepageImg' src={wave} alt='avatarWave'/>
 </div>
   );

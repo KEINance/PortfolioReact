@@ -98,7 +98,7 @@ html, body {
   background-color: white;
   z-index: 2;
   position: relative;
-  bottom: 520px;
+  bottom: 510px;
   margin-left: 340px;
 }
 
@@ -115,7 +115,7 @@ html, body {
   background-color: white;
   z-index: 1;
   position: relative;
-  bottom: 885px;
+  bottom: 860px;
   margin-left: 380px;
 }
 
@@ -183,6 +183,7 @@ li:active {
 }
 
 #contacts {
+  height: 200px;
   margin-left: 40%;
   font-family: 'Abril';
   display: flex;
@@ -393,14 +394,14 @@ li:active {
 .right {
   flex-wrap: wrap; 
   flex-direction: column;
-  width: 200px;
+  /* width: 200px; */
   float: right;
 }
 
 .left {
   flex-wrap: wrap; 
   flex-direction: column;
-width: auto;
+/* width: auto; */
 overflow: hidden;
 }
 
@@ -408,34 +409,34 @@ overflow: hidden;
 #skill {
   /* margin-left: 20px;
   flex-direction: column;
-  flex-wrap: wrap; */
-  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
   width: 400px;
   height: 300px;
-  background-color: rgb(78, 76, 103, 0.2); 
+   background-color: rgb(78, 76, 103, 0.2);  
 border-radius: 100px;
-box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px; 
 }
 
-/* #skillList {
-  margin-left: 20px;
+.right {
+  margin-left: 40px;
   align-items: flex-start;
     display: flex;
   flex-direction: column;
 }
 
-#skillList2 {
-  margin-right: 20px;
+.left {
+  margin-right: 50px;
   margin-bottom: 1000px;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   display: flex;
  flex-direction: column;
-} */
+}
 
 #education {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   height: 300px;
   background-color: rgb(78, 76, 103, 0.2); 
 border-radius: 100px;
