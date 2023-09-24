@@ -3,31 +3,38 @@ import * as ReactDOM from 'react-dom';
 
 
 export default function EmailCard() {
-
+    
     function Button(props){
-    function handleSubmit(){
+    const [errorMessage, setErrorMessage] = useState("");
+    function handleSubmit(event) {
+      event.preventDefault();
       console.log("pleeeease work");
     }
     return(
-      <input id={props.ID} type="submit" value="Submit" onClick='#' />
+      <input id={props.ID} type="submit" value="Submit" onClick={handleSubmit} />
     );
   }
+  const handleClick = () => {
+    setErrorMessage("Input is not valid! Please, re~submit.")
+  }
+  return (
+    <div className="App">
+      <button onClick={handleClick}>This is your presented error</button>
+      {errorMessage && <div className="error"> {errorMessage} </div>}
+    </div>
+  );
 
 
-  
   function Input(props){
     function Checker(event){
       let value = event.target.value;
       // console.log(value);
       let i = props.ID.toString();
-      if(i == "name"){
+      if(i === "name"){
         var re =  /^[A-Za-z]+$/;
         let ans =  re.test(value);
         if(ans === false) {
-            const message = ("Characters not valid! Please, try again.");
-            error.textContent = message;
-        } else {
-            error.textContent = '';
+            handleClick();
         }
         
       }
@@ -35,10 +42,7 @@ export default function EmailCard() {
         var re =  /^[0-9]+$/;
         let ans =  re.test(value);
         if(value.length < 10 || value.length >10 || ans == false) {
-            const message = ("Phone number not valid! Please, try again.");
-            error.textContent = message;
-        } else {
-            error.textContent = '';
+            handleClick();
         }
 
       }
@@ -46,10 +50,7 @@ export default function EmailCard() {
         var re =  /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         let ans =  re.test(value);
         if (ans == false) {
-            const message = ("E~mail is not valid! Please, try again.");
-            error.textContent = message;
-        } else {
-            error.textContent = '';
+            handleClick();
         }
       }
     }
@@ -59,7 +60,14 @@ export default function EmailCard() {
   }
   
   function Form(props){
+        const handleSubmit = (event) => {
+            event.preventDefault();
+            console.log('success')
+        }
+
+
     return(
+    <form className="title" onSubmit={handleClick}>
       <div id='wholeEmailForm' className="main">
         <div className="main-body">
              <input className="contact" type="text" value="(+00) 12345 67890" readOnly/>
@@ -76,12 +84,12 @@ export default function EmailCard() {
           
           <div className="form-element">
             <label>Enter your E~mail here:</label>  <br/>
-            <Input hint="Enter your Email ID" type="email" id="email"/> 
+            <Input hint="Enter your Email" type="email" id="email"/> 
           </div>
           
           <div className="form-element">
             <label>Enter your phone here:</label> <br/>
-            <Input hint="Phone Number" type="text" id="phone"/>
+            <Input hint="Telephone or Cellphone" type="text" id="phone"/>
           </div>
           
           <div className="form-element">
@@ -90,12 +98,19 @@ export default function EmailCard() {
               </textarea> 
           </div>
           
-          <Button id="submit" />
+          <Button ID="submit" />
           </form>
         </div>
-      
+
+    </form>
     );
   }
+  return (
+    <span className="App"> 
+        <button onClick={handleClick}>This is your presented error.</button>
+        {errorMessage && <span className="error"> {error}</span>}
+    </span>
+  )
   ReactDOM.render(
     <Form/>,
     document.getElementById('root')
