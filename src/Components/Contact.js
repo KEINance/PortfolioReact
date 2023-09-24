@@ -11,9 +11,9 @@ export default function Greeting() {
         <h4 id="Communications">Looking Forward To Hearing From You!</h4>
       </div>
 
-      <div>
+      {/* <div>
         <EmailForm></EmailForm>
-      </div>
+      </div> */}
     
       <section id="contactSection">
         <div id="contacts">
