@@ -381,8 +381,10 @@ li:active {
 
 #projectSection {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  /* width: 100% */
+  width: 1400px;
+  height: 100%;
 }
 
 #btn1 {
@@ -420,6 +422,39 @@ li:active {
 
 #btn4 {
   background-image: url("./Assets/CarProject.png");
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+}
+
+#btn5 {
+  background-image: url("./Assets/QuizProject.png");
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+}
+
+#btn6 {
+  background-image: url("./Assets/PasswordProject.png");
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+}
+
+#btn7 {
+  background-image: url("./Assets/ScedulerProject.png");
   border: solid var(--mint-green) 15px;
   height: 200px;
   width: 200px;
