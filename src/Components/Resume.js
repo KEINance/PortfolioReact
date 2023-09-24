@@ -8,7 +8,7 @@ export default function Resume() {
       <h2 id="title">(336) 459 - 9385 Keinance2@gmail.com Raleigh, NC 27613</h2>
 
       <div id="skillEdu">
-        <div id="education">
+        <div id="education" className="container">
           <h3>Education</h3>
           <span>❖2012 GED: Rockingham Community College</span>
           <span>
@@ -21,7 +21,7 @@ export default function Resume() {
         {/* </div>
 
 <div> */}
-        <div id="history">
+        <div id="history" className="container">
           <h3>Work History</h3>
 
           <span>❖Raleigh Dental Arts – Raleigh, NC April 2021 – Present</span>
@@ -54,6 +54,9 @@ export default function Resume() {
             ❖Rockingham Community College - Wentworth, NC Work Study/Assistant
             October 2014 to May 2015
           </span>
+
+          <span id="ref">References Upon Request</span>
+  
         </div>
 
         <div id="skill" className="container">
@@ -83,9 +86,6 @@ export default function Resume() {
         </div>
       </div>
 
-      <div>
-        <p id="ref">References Upon Request</p>
-      </div>
     </div>
   );
 }

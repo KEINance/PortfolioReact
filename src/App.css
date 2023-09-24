@@ -260,9 +260,80 @@ li:active {
   }  
 
 
+#linkedInBtn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: var(--china-rose);
+  box-shadow: inset 0 0 0 2px var(--english-violet);
+  background-color: transparent;
+  height: 48px;
+}
+
+
+#linkedInBtn:hover{
+  color: white;
+  background-color: var(--english-violet);
+}
 
 
 
+
+/* EMAIL FORM */
+
+#wholeEmailForm {
+  height: 600px;
+  width: 300px;
+  border-radius: 30px;
+  color: white;
+  background-color: var(--english-violet);
+}
+
+.title {
+  text-shadow: -2px -1px 1px var(--periwinkle-2);
+  font-family: "Abril";
+  font-weight: bolder;
+  color: var(--cambridge-blue-2);
+}
+
+#id {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: var(--china-rose);
+  box-shadow: inset 0 0 0 2px var(--english-violet);
+  background-color: transparent;
+  height: 48px;
+}
+
+#submit:hover{
+  color: white;
+  background-color: var(--english-violet);
+}
 
 
 
@@ -407,10 +478,10 @@ overflow: hidden;
 
 
 #skill {
-  /* margin-left: 20px;
+  margin-left: 20px;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly; */
+  justify-content: space-evenly;
   width: 400px;
   height: 300px;
    background-color: rgb(78, 76, 103, 0.2);  
@@ -464,14 +535,7 @@ z-index: 2;
 
 #ref {  
   margin-top: 40px;
-  margin-left: 600px;
-  justify-content: center;
-  width: 300px;
-  height: 30px;
-  margin-bottom: 500px;
-  background-color: rgb(78, 76, 103, 0.2); 
-border-radius: 100px;
-box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+
 }
 
 
@@ -490,8 +554,17 @@ box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 
 
 /* MEDIA CHANGES */
 
-@media screen and (max-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   html {
     width: 100%;
   }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }

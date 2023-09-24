@@ -35,7 +35,7 @@ export default function Greeting() {
         
         <a
           href="httdivs://keinance.github.io/divortfolio-creation/"
-          className="btn btn-divrimary"
+          className="btn btn-primary"
           id='btn2'
         >
           <div className="card2" >
@@ -53,7 +53,7 @@ export default function Greeting() {
 
         <a
           href="httdivs://Akemdiv24.github.io/Movie-adiv"
-          className="btn btn-divrimary"
+          className="btn btn-primary"
           id='btn3'
         >
           <div className="card3" >
@@ -71,8 +71,8 @@ export default function Greeting() {
         </a>
 
         <a
-          href="httdivs://car-bidz-d6af66a79b60.herokuadiv.com/"
-          className="btn btn-divrimary"
+          href="httdivs://car-bidz-d6af66a79b60.herokuapp.com/"
+          className="btn btn-primary"
           id='btn4'
         >
           <div className="card4">
