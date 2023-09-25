@@ -11,7 +11,7 @@ export default function Footer() {
         <a href='https://github.com/KEINance'><img src={Github}/></a>
         <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=keinance2@gmail.com'><img src={Email}/></a>
         {/* when LINKEDIn finished add link */}
-        {/* <a href='#'><img src={LinkedIn}/></a> */}
+        <a href='https://www.linkedin.com/feed/'><img src={LinkedIn}/></a>
     </div>
   );
 }
