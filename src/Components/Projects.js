@@ -154,6 +154,26 @@ export default function Greeting() {
           </div>
         </a>
 
+        <a
+          href="https://fitness-flavors-6c56562cb291.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn8'
+        >
+          <div className="card8">
+            <div className="card-body">
+              <div className="card-text">
+              <br>
+              </br>
+              <br>
+              </br>
+              <h5 className="card-title">Fitness Flavors</h5>
+                Application allows users to seacrh and save exercises 
+                for their fitness journey!
+              </div>
+            </div>
+          </div>
+        </a>
+
       </div>
     </div>
   );

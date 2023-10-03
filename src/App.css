@@ -476,6 +476,17 @@ li:active {
   border-radius: 100px;
 }
 
+#btn8 {
+  background-image: url("./Assets/fitnessFlavors.png");
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+}
+
 .card-text {
   opacity: 0;
   text-align: center;
