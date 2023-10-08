@@ -38,7 +38,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following animation shows the appearance and functionality:
 
 ![portfolio demo](../PortfolioReact/src/Assets/NewPortfolio.png)
 
