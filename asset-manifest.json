@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.fa8090ec.css",
-    "main.js": "/PortfolioReact/static/js/main.e8d4d611.js",
+    "main.css": "/PortfolioReact/static/css/main.035b77dd.css",
+    "main.js": "/PortfolioReact/static/js/main.720dc8db.js",
+    "static/media/fitnessFlavors.png": "/PortfolioReact/static/media/fitnessFlavors.d0d5d2f32a3f5d78b0cf.png",
     "static/media/HtmlProject.png": "/PortfolioReact/static/media/HtmlProject.2140704dfd2f0f7f27dc.png",
     "static/media/MovieProject.png": "/PortfolioReact/static/media/MovieProject.6906bbc224150977e01c.png",
     "static/media/CssProject.png": "/PortfolioReact/static/media/CssProject.dd0217f2dfdb000a696f.png",
     "static/media/CarProject.png": "/PortfolioReact/static/media/CarProject.f1409e4d4f63ffe8e5e2.png",
+    "static/media/ScedulerProject.png": "/PortfolioReact/static/media/ScedulerProject.cb54ec0aa82ab1e7332f.png",
+    "static/media/PasswordProject.png": "/PortfolioReact/static/media/PasswordProject.a3bfb58b592aeaa488c5.png",
+    "static/media/QuizProject.png": "/PortfolioReact/static/media/QuizProject.1aaf50b3b41f04133665.png",
     "static/media/cool.png": "/PortfolioReact/static/media/cool.1be6f3b55bf9a46b7be7.png",
     "static/media/standPoint.png": "/PortfolioReact/static/media/standPoint.5f4c7db0dbf863af55f0.png",
     "static/media/wave.png": "/PortfolioReact/static/media/wave.b361c056ac1e332ff3da.png",
     "index.html": "/PortfolioReact/index.html",
-    "main.fa8090ec.css.map": "/PortfolioReact/static/css/main.fa8090ec.css.map",
-    "main.e8d4d611.js.map": "/PortfolioReact/static/js/main.e8d4d611.js.map"
+    "main.035b77dd.css.map": "/PortfolioReact/static/css/main.035b77dd.css.map",
+    "main.720dc8db.js.map": "/PortfolioReact/static/js/main.720dc8db.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa8090ec.css",
-    "static/js/main.e8d4d611.js"
+    "static/css/main.035b77dd.css",
+    "static/js/main.720dc8db.js"
   ]
 }
