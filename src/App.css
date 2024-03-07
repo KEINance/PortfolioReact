@@ -488,7 +488,7 @@ li:active {
 }
 
 #btn9 {
-  background-image: url("./Assets/database.png");
+  background-image: url("./Assets/texteditor.png");
   border: solid var(--mint-green) 15px;
   height: 200px;
   width: 200px;
@@ -499,7 +499,7 @@ li:active {
 }
 
 #btn10 {
-  background-image: url("./Assets/texteditor.png");
+  background-image: url("./Assets/database.png");
   border: solid var(--mint-green) 15px;
   height: 200px;
   width: 200px;

@@ -47,7 +47,7 @@ export default function Homepage() {
     <br>
     </br>
   Thank you for reading through, I hope viewing my projects shows off some of the attention
-  to detail and creativness that I apply to my works. Please, enjoy! Thank you for your consideration.
+  to detail and creativeness that I apply to my works. Please, enjoy! Thank you for your consideration.
 </div>
 <img id='homepageImg' src={wave} alt='avatarWave'/>
 </div>
