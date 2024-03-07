@@ -174,6 +174,44 @@ export default function Greeting() {
           </div>
         </a>
 
+        <a
+          href="https://texteditor2-730a4f7e3868.herokuapp.com/"
+          className="btn btn-primary"
+          id='btn9'
+        >
+          <div className="card9">
+            <div className="card-body">
+              <div className="card-text">
+              <br>
+              </br>
+              <br>
+              </br>
+              <h5 className="card-title">Text Editor</h5>
+                Application allows UI for adjusting text at will!
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://drive.google.com/file/d/1lBIX5aagi6Y9wszbwRz72RdcRN7-vGWD/view"
+          className="btn btn-primary"
+          id='btn10'
+        >
+          <div className="card10">
+            <div className="card-body">
+              <div className="card-text">
+              <br>
+              </br>
+              <br>
+              </br>
+              <h5 className="card-title">Employee Tracker</h5>
+                Server side application for companies to track their employees database and more!
+              </div>
+            </div>
+          </div>
+        </a>
+
       </div>
     </div>
   );

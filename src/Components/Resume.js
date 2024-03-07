@@ -24,35 +24,31 @@ export default function Resume() {
         <div id="history" className="container">
           <h3>Work History</h3>
 
-          <span>❖Raleigh Dental Arts – Raleigh, NC April 2021 – Present</span>
-
+          <span>❖Raleigh Dental Arts –Raleigh, NC 2021 – Present</span>
+          <br>
+          </br>
           <span>
-            ❖A Brighter Smile Dental Care – Shreveport, LA January 2021 –
-            February 2021
+            ❖A Brighter Smile Dental Care –Shreveport, LA 2021
           </span>
-
+          <br>
+          </br>
           <span>
-            ❖Dental Assistant I – Graham, NC February 2020 – June 2020{" "}
+            ❖Ann Taylor Factory/Loft –Mebane, NC/Shreveport, LA Sales Lead 2019 - 2021
           </span>
-
+          <br>
+          </br>
           <span>
-            ❖Ann Taylor Factory/Loft – Mebane, NC/Shreveport, LA Sales Lead
-            October 2019 – May 2021
+            ❖Skechers –Bossier City, LA Lead Floor Sales Associate 2019
           </span>
-
+          <br>
+          </br>
           <span>
-            ❖Skechers – Bossier City, LA Lead Floor Sales Associate April 2019 –
-            September 2019
+            ❖Shoe Show -Eden, NC Cashier/Stocker/Sales Associate 2015 - 2016
           </span>
-
+          <br>
+          </br>
           <span>
-            ❖Shoe Show - Eden, NC Cashier/Stocker/Sales Associate August 2015 to
-            June 2016
-          </span>
-
-          <span>
-            ❖Rockingham Community College - Wentworth, NC Work Study/Assistant
-            October 2014 to May 2015
+            ❖Rockingham Community College -Wentworth, NC Work Study/Assistant 2014 - 2015
           </span>
 
           <span id="ref">References Upon Request</span>

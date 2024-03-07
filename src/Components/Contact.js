@@ -1,6 +1,6 @@
 import React from "react";
 import standPoint from "../Assets/standPoint.png";
-import EmailForm from "../Components/EmailForm";
+import EmailForm from "./EmailForm";
 
 export default function Greeting() {
   // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
