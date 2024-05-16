@@ -15,7 +15,7 @@ export default function Resume() {
             ❖2015 Associate of Fine Arts: Rockingham Community College
           </span>
           <span>❖2016-2017 East Carolina University</span>
-          <span>❖2017-2018 Guilford Technical Community College</span>
+          {/* <span>❖2017-2018 Guilford Technical Community College</span> */}
           <span>❖2023 UNC Charlotte Full-Stack Bootcamp</span>
         </div>
         {/* </div>
