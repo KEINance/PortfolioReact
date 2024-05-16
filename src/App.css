@@ -179,6 +179,7 @@ li:active {
   z-index: 2;
   float: left;
   margin-left: 280px;
+  margin-top: 10%;
   /* top: 500px; */
 }
 
@@ -231,12 +232,13 @@ li:active {
 
 #contacts {
   height: 200px;
-  margin-left: 40%;
+  margin-left: 20%;
+  margin-top: 10%;
   font-family: 'Abril';
   display: flex;
   flex-direction: row;
   width: 300px;
-  justify-content: space-around;
+  justify-content: space-between;
   text-decoration: none !important;
 }
 
@@ -392,6 +394,10 @@ li:active {
   justify-content: space-between;
   width: 60%;
   margin-left: 300px;
+  border-radius: 20px;
+  box-shadow:  var(--english-violet) 0px 12px 13px, var(--english-violet) 0px 5px 13px;
+  /* border: 7px groove var(--periwinkle);
+  border-radius: 25px; */
   /* grid-auto-rows: auto; */
 }
 
@@ -508,6 +514,18 @@ li:active {
   background-position: center center;
   border-radius: 100px;
 }
+
+
+/* #btn11 {
+  background-image: url("");
+  border: solid var(--mint-green) 15px;
+  height: 200px;
+  width: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+} */
 
 .card-text {
   opacity: 0;

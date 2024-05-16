@@ -11,7 +11,7 @@ export default function Greeting() {
         <h4 id="Communications">Looking Forward To Hearing From You!</h4>
       </div>
 
-      <form id="wholeEmailForm" onSubmit="#">
+      {/* <form id="wholeEmailForm" onSubmit="#">
         <center>
           <div className="contactForm">
             <br></br>
@@ -39,7 +39,7 @@ export default function Greeting() {
             </form>
           </div>
         </center>
-      </form>
+      </form> */}
 
       <img id="contactImg" src={standPoint} alt="avatarWave" />
       <section id="contactSection">
